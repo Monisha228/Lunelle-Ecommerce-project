@@ -1,0 +1,161 @@
+.navbar {
+  background-color: var(--bg-color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.navbar-top-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  transition: 0.35s ease;
+  background-color: var(--bg-color);
+}
+.navbar-top-wrapper.hide {
+  transform: translateY(-100%);
+}
+.nav-bottom {
+  background-color: var(--bg-color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: fixed;
+  top: 140px;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+.nav-bottom.top {
+  top: 0;
+}
+.nav-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-top {
+  padding: 8px 0px;
+}
+.nav-top p {
+  font-size: 12px;
+}
+.nav-top-left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.nav-top-right > select {
+  border: none;
+  outline: none;
+  background-color: var(--bg-color);
+}
+.offer-slider {
+  transition: opacity 0.5s ease;
+  font-weight: 500;
+}
+.phone-icon img {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 2px;
+}
+hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+}
+.nav-center .container {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.nav-center-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+.nav-center-left,
+.logo,
+.nav-center-right {
+  flex: 1;
+}
+.nav-center-left {
+  display: flex;
+  gap: 2rem;
+}
+.nav-center-right {
+  display: flex;
+  gap: 2rem;
+  position: relative;
+}
+.nav-center-right p {
+  font-size: 16px;
+}
+.nav-bottom {
+  padding: 16px;
+}
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-items li a {
+  transition: color 0.3s ease;
+}
+
+.nav-items li a:hover {
+  color: var(--hover-color);
+}
+.nav-center-left li a:hover {
+  color: var(--hover-color);
+}
+.nav-center-right p {
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+.nav-center-right p a:hover {
+  font-size: 16px;
+  color: var(--hover-color);
+}
+.nav-center-right a {
+  color: var(--primary);
+  font-weight: 500;
+}
+.search-box {
+  position: absolute;
+  top: 130px;
+  right: 80px;
+  width: 0;
+  overflow: hidden;
+  transition: 0.4s ease;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.search-box input {
+  width: 250px;
+  padding: 12px 18px;
+  color: var(--text-dark);
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 30px;
+}
+.search-box input[placeholder] {
+  font-family: "Poppins", sans-serif;
+}
+.search-box.active {
+  width: 250px;
+}
+
+.hamburger {
+  display: none;
+  flex: 1;
+  font-size: 20px;
+}

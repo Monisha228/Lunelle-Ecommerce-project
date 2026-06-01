@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Women Fashion</title>
+
+    <link rel="icon" type="image/png" href="./assets/images/logo.png" />
+    <link rel="stylesheet" href="./css/global/reset.css" />
+    <link rel="stylesheet" href="./css/global/typography.css" />
+    <link rel="stylesheet" href="./css/global/variables.css" />
+
+    <link rel="stylesheet" href="./css/pages/home.css" />
+
+    <link rel="stylesheet" href="./css/components/navbar.css" />
+    <link rel="stylesheet" href="./css/components/hero.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/64865d6b46.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="navbar-top-wrapper">
+          <div class="nav-top">
+            <div class="container">
+              <div class="nav-top-left">
+                <p class="phone-icon">
+                  <img
+                    src="./assets/svg/phone-solid-full.svg"
+                    alt="phone-icon"
+                  />
+                </p>
+                <p class="number">+1234567890</p>
+              </div>
+              <div class="nav-top-center">
+                <p class="offer-slider" id="offer-slider"></p>
+              </div>
+              <div class="nav-top-right">
+                <select id="language-picker" name="languages">
+                  <option value="en" selected>English</option>
+                  <option value="tn">Tamil</option>
+                  <option value="es">Español</option>
+                  <option value="fr">Français</option>
+                  <option value="de">Deutsch</option>
+                  <option value="ja">日本語</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="nav-center">
+            <div class="container">
+              <ul class="nav-center-left">
+                <li><a href="#">Brands</a></li>
+                <li>
+                  <a href="#">Offers</a>
+                </li>
+              </ul>
+              <div class="hamburger">☰</div>
+              <div class="logo">
+                <img src="./assets/images/logo.png" alt="Logo" />
+              </div>
+              <div class="nav-center-right">
+                <p class="search">
+                  <a href="#" id="search-btn"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                </p>
+                <p class="cart">
+                  <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                </p>
+                <p class="profile">
+                  <a href="#"><i class="fa-solid fa-user"></i></a>
+                </p>
+              </div>
+
+              <div class="search-box" id="search-box">
+                <input type="text" placeholder="Search Products..." />
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div class="nav-bottom">
+          <div class="container">
+            <ul class="nav-items">
+              <li><a href="#">Kurtas & Kurtis</a></li>
+              <li><a href="#">Ethnic Sets</a></li>
+              <li><a href="#">Dresses</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Jewellery</a></li>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-section">
+        <div class="container">
+          <div class="hero-items">
+            <p class="hero-label">New Collection</p>
+            <h1 class="hero-title">Elegance <br />Redefined</h1>
+            <p class="hero-details">
+              Timeless styles crafted for te modern woman, <br />
+              Discover your new signature look.
+            </p>
+            <button class="btn-dark">Shop Now</button>
+            <button class="btn-transparent">View Collections</button>
+            <div class="hero-cards">
+              <div class="hero-card">
+                <i class="fa-solid fa-truck"></i>
+                <div class="hero-card-right">
+                  <h4 class="hero-card-title">Free shipping</h4>
+                  <p>For all over the World.</p>
+                </div>
+              </div>
+              <div class="hero-card">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                <div class="hero-card-right">
+                  <h4 class="hero-card-title">Easy return</h4>
+                  <p>Hassle free returns.</p>
+                </div>
+              </div>
+              <div class="hero-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div class="hero-card-right">
+                  <h4 class="hero-card-title">Secure Policy</h4>
+                  <p>Safe and Secure Payments.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+.hero-section {
+  background: url(../../assets/images/sample.png);
+  min-height: 100svh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 193px;
+}
+.hero-items {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 700px;
+  padding: 80px 0;
+}
+.hero-label {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--primary);
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: var(--text-dark);
+  line-height: 1.1;
+}
+.hero-details {
+  line-height: 2;
+  margin-bottom: 16px;
+}
+
+.hero-cards {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px);
+  display: flex;
+  width: fit-content;
+  gap: 24px;
+  border-radius: 4px;
+  padding: 16px 16px;
+  margin-top: 80px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+.hero-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 24px;
+}
+.hero-card:not(:first-child) {
+  border-left: 1px solid var(--secondary);
+}
+.hero-card i {
+  color: var(--primary);
+  font-size: 20px;
+}
+.hero-card h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-dark);
+  font-size: 14px;
+  font-weight: 600;
+}
+.hero-card p {
+  color: var(--text-dark);
+  font-size: 12px;
+  line-height: 1.5;
+}

@@ -1,0 +1,25 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+select {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+p {
+  font-size: 14px;
+  color: var(--text-dark);
+}
+a {
+  text-decoration: none;
+  color: var(--text-dark);
+}
+li {
+  font-size: 14px;
+  list-style: none;
+}

@@ -1,0 +1,45 @@
+body {
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+.btn-dark {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border: 1px solid var(--primary);
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 24px;
+}
+.btn-transparent {
+  background-color: transparent;
+  color: var(--primary);
+  border: 0.8px solid var(--primary);
+  padding: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+.btn-dark,
+.btn-transparent {
+  transition: 0.3s ease;
+}
+.btn-dark:hover {
+  transform: translateY(-2px);
+}
+.btn-transparent:hover {
+  background: rgba(126, 79, 109, 0.1);
+}
