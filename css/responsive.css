@@ -103,6 +103,9 @@
   .category-title {
     font-size: 30px;
   }
+  .products-title{
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -173,6 +176,9 @@
     line-height: 1.7;
   }
   .category-title {
+    font-size: 26px;
+  }
+  .products-title {
     font-size: 26px;
   }
 }

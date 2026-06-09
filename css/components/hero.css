@@ -6,6 +6,7 @@
   background-size: cover;
   width: 100%;
   margin-top: 193px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .hero-items {
   min-height: 100vh;
@@ -42,7 +43,6 @@
   padding: 16px 16px;
   margin-top: 80px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  border-radius: 4px;
 }
 .hero-card {
   display: flex;

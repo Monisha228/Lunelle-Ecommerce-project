@@ -1,5 +1,5 @@
 .category-section {
-  margin: 40px 0;
+  padding: 80px 0;
 }
 .category-header {
   display: flex;
@@ -8,32 +8,22 @@
   margin-bottom: 56px;
 }
 
-.category-header a {
-  background-color: var(--bg-color);
-  color: var(--primary);
-  padding: 8px 16px;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  font-size: 14px;
-   
-}
-.category-header a:first-child {
+.view-all a {
   background-color: var(--primary);
   color: var(--bg-color);
   padding: 8px 16px;
   border-radius: 4px;
+  font-size: 14px;
   transition: 0.3s ease;
 }
-.category-header a:hover {
-  background-color: var(--hover-color);
-  color: var(--bg-color);
-}
-.category-header a:first-child:hover {
+
+.view-all a:hover {
   background-color: var(--hover-color);
 }
 .category-title {
-  font-size: 40px;
+  font-size: 48px;
   flex:1;
+  line-height: 1.6;
   color: var(--text-dark);
 }
 .category-cards {
@@ -47,12 +37,15 @@
 .category-card {
   border-radius: 4px;
   overflow: hidden;
-  
+  cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .category-card:hover {
   transform: translateY(-6px);
+}
+.category-card:hover .category-label {
+    color: var(--primary);
 }
 .category-card img {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -64,9 +57,17 @@
    margin: 0 auto;
 }
 .category-label {
-  
   text-align: center;
   font-size: 18px;
   padding: 12px 0;
   color:var(--text-dark);
+}
+.category-mark {
+  font-size: 12px;
+letter-spacing: 3px;
+text-transform: uppercase;
+  
+  color: var(--primary);
+ font-weight: 500;
+
 }
