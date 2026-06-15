@@ -73,7 +73,6 @@
     background-position: top center;
     min-height: 80vh !important;
   }
-  
 }
 @media (max-width: 768px) {
   p {
@@ -103,8 +102,17 @@
   .category-title {
     font-size: 30px;
   }
-  .products-title{
+  .products-title {
     font-size: 30px;
+  }
+  .banner-details {
+    font-size: 14px;
+  }
+  .banner-mark {
+    font-size: 14px;
+  }
+  .banner-inner {
+    padding: 40px;
   }
 }
 

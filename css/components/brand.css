@@ -1,0 +1,94 @@
+.brand-section {
+  padding: 80px 0;
+}
+.brand-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.brand-title {
+  font-size: 48px;
+  flex: 1;
+  line-height: 1.6;
+  color: var(--text-dark);
+}
+.brand-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 12px;
+}
+.brand-card {
+  background-color: var(--white);
+  border: none;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden; 
+}
+.brand-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+.brand-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.75) 0%,
+        rgba(0, 0, 0, 0.4) 40%,
+        rgba(0, 0, 0, 0) 80%
+    );
+    transition: 0.3s ease;
+}
+.ethnic-card:hover::before {
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,.85),
+        rgba(0,0,0,.5),
+        rgba(0,0,0,0)
+    );
+}
+.brand-card img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 3/4;
+  z-index: 99;
+  display: block;
+  border-radius: 4px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.35));
+}
+.brand-category {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  z-index: 100;
+  color: white;
+}
+.brand-category-title {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  color: white;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.brand-details {
+  color: white;
+  margin-bottom: 24px;
+  width:60%;
+}
+.shop-now-btn {
+    font-size: 14px;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding-bottom: 4px;
+  letter-spacing:1px;
+  border: none;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
