@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="./css/components/products.css" />
     <link rel="stylesheet" href="./css/components/brand.css" />
     <link rel="stylesheet" href="./css/components/banner.css" />
+    <link rel="stylesheet" href="./css/components/featured.css" />
+    <link rel="stylesheet" href="./css/components/testimonials.css" />
     <link rel="stylesheet" href="./css/components/footer.css" />
 
     <link rel="stylesheet" href="./css/responsive.css" />
@@ -220,8 +222,12 @@
                       ><span class="fa fa-star checked"></span></span
                     >&nbsp;<span class="bold">3.9</span>&nbsp;(21)
                   </p>
-                  <p class="price">$149.99</p>
-                  <a href="#" class="add-cart-btn">Add to cart</a>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
               <div class="product-card">
@@ -244,8 +250,12 @@
                       ><span class="fa fa-star checked"></span></span
                     >&nbsp;<span class="bold">4.8</span>&nbsp;(126)
                   </p>
-                  <p class="price">$49.99</p>
-                  <a href="#" class="add-cart-btn">Add to cart</a>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
               <div class="product-card">
@@ -268,8 +278,12 @@
                       ><span class="fa fa-star checked"></span></span
                     >&nbsp;<span class="bold">5.0</span>&nbsp;(126)
                   </p>
-                  <p class="price">$59.99</p>
-                  <a href="#" class="add-cart-btn">Add to cart</a>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
               <div class="product-card">
@@ -292,8 +306,12 @@
                       ><span class="fa fa-star checked"></span></span
                     >&nbsp;<span class="bold">4.2</span>&nbsp;(126)
                   </p>
-                  <p class="price">$10.99</p>
-                  <a href="#" class="add-cart-btn">Add to cart</a>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -359,6 +377,351 @@
         </div>
       </div>
 
+      <div class="feature-products-section">
+        <div class="container">
+          <p class="category-mark">Our Collections</p>
+          <div class="feature-products">
+            <h3 class="products-title">Featured Products</h3>
+            <div class="product-tabs">
+              <button class="tab-btn active" data-category="all">All</button>
+              <button class="tab-btn" data-category="ethnic">Ethnic</button>
+              <button class="tab-btn" data-category="western">Western</button>
+              <button class="tab-btn" data-category="jewellery">
+                Jewellery
+              </button>
+              <button class="tab-btn" data-category="bags">Bags</button>
+            </div>
+            <div class="product-grid">
+              <div class="product-grid-card" data-category="western">
+                <div class="product-image">
+                  <div class="wishlist-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="./assets/images/products-section/1.png"
+                    alt="product-image"
+                  />
+                </div>
+                <div class="product-details">
+                  <h3 class="product-card-title">Cream Executive Set</h3>
+                  <p class="stars">
+                    <span class="fa fa-star checked"
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span></span
+                    >&nbsp;<span class="bold">3.9</span>&nbsp;(21)
+                  </p>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-grid-card" data-category="ethnic">
+                <div class="product-image">
+                  <div class="wishlist-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="./assets/images/products-section/2.png"
+                    alt="product-image"
+                  />
+                </div>
+                <div class="product-details" data-category="bags">
+                  <h3 class="product-card-title">Black Luxe Evening Wear</h3>
+                  <p class="stars">
+                    <span class="fa fa-star checked"
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span></span
+                    >&nbsp;<span class="bold">4.8</span>&nbsp;(126)
+                  </p>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-grid-card" data-category="jewellery">
+                <div class="product-image">
+                  <div class="wishlist-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="./assets/images/products-section/8.png"
+                    alt="product-image"
+                  />
+                </div>
+                <div class="product-details">
+                  <h3 class="product-card-title">Camel Chic Co-Ord Set</h3>
+                  <p class="stars">
+                    <span class="fa fa-star checked"
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span></span
+                    >&nbsp;<span class="bold">5.0</span>&nbsp;(126)
+                  </p>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-grid-card" data-category="bags">
+                <div class="product-image">
+                  <div class="wishlist-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="./assets/images/products-section/5.png"
+                    alt="product-image"
+                  />
+                </div>
+                <div class="product-details">
+                  <h3 class="product-card-title">Signature Blazer Set</h3>
+                  <p class="stars">
+                    <span class="fa fa-star checked"
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span></span
+                    >&nbsp;<span class="bold">4.2</span>&nbsp;(126)
+                  </p>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-grid-card" data-category="jewellery">
+                <div class="product-image">
+                  <div class="wishlist-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="./assets/images/products-section/9.png"
+                    alt="product-image"
+                  />
+                </div>
+                <div class="product-details">
+                  <h3 class="product-card-title">Cream Executive Set</h3>
+                  <p class="stars">
+                    <span class="fa fa-star checked"
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span></span
+                    >&nbsp;<span class="bold">3.9</span>&nbsp;(21)
+                  </p>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-grid-card" data-category="western">
+                <div class="product-image">
+                  <div class="wishlist-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="./assets/images/products-section/7.png"
+                    alt="product-image"
+                  />
+                </div>
+                <div class="product-details" data-category="western">
+                  <h3 class="product-card-title">Black Luxe Evening Wear</h3>
+                  <p class="stars">
+                    <span class="fa fa-star checked"
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span></span
+                    >&nbsp;<span class="bold">4.8</span>&nbsp;(126)
+                  </p>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-grid-card" data-category="western">
+                <div class="product-image">
+                  <div class="wishlist-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="./assets/images/products-section/6.png"
+                    alt="product-image"
+                  />
+                </div>
+                <div class="product-details">
+                  <h3 class="product-card-title">Camel Chic Co-Ord Set</h3>
+                  <p class="stars">
+                    <span class="fa fa-star checked"
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span></span
+                    >&nbsp;<span class="bold">5.0</span>&nbsp;(126)
+                  </p>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-grid-card" data-category="western">
+                <div class="product-image">
+                  <div class="wishlist-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="./assets/images/products-section/3.png"
+                    alt="product-image"
+                  />
+                </div>
+                <div class="product-details">
+                  <h3 class="product-card-title">Signature Blazer Set</h3>
+                  <p class="stars">
+                    <span class="fa fa-star checked"
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span
+                      ><span class="fa fa-star checked"></span></span
+                    >&nbsp;<span class="bold">4.2</span>&nbsp;(126)
+                  </p>
+                  <div class="price-cart">
+                    <p class="price">$149.99</p>
+                    <a href="#" class="add-cart-btn"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="view-all feature-btn">
+              <a href="#" class="">View all Collections</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-section">
+        <div class="container">
+          <div class="testimonial-inner">
+            <div class="testimonial-header">
+              <p class="testimonial-mark">Testimonials</p>
+              <h3 class="testimonial-title">Loved by Our Customers</h3>
+            </div>
+            <div class="testimonial-cards">
+              <div class="testimonial-card">
+                <p class="quote">❝</p>
+
+                <p class="testimonial-details">
+                  The quality exceeded my expectations. The fabric feels
+                  premium, and the fit was absolutely perfect. I'll definitely
+                  be shopping here again.
+                </p>
+                <p class="stars stars-testimonials">
+                  <span class="fa fa-star checked"
+                    ><span class="fa fa-star checked"></span
+                    ><span class="fa fa-star checked"></span
+                    ><span class="fa fa-star checked"></span
+                    ><span class="fa fa-star checked"></span
+                  ></span>
+                </p>
+                <hr />
+                <div class="testimonial-profile">
+                  <img
+                    class="testimonial-avatar"
+                    src="https://randomuser.me/api/portraits/women/8.jpg"
+                    alt="avatar"
+                  />
+                  <div>
+                    <h5>Ananya</h5>
+                    <p>Verified Customer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <p class="quote">❝</p>
+
+                <p class="testimonial-details">
+                  I was impressed by the attention to detail and elegant
+                  designs. The delivery was quick, and the product looked
+                  exactly like the pictures.
+                </p>
+                <p class="stars stars-testimonials">
+                  <span class="fa fa-star checked"
+                    ><span class="fa fa-star checked"></span
+                    ><span class="fa fa-star checked"></span
+                    ><span class="fa fa-star checked"></span
+                    ><span class="fa fa-star checked"></span
+                  ></span>
+                </p>
+                <hr />
+                <div class="testimonial-profile">
+                  <img
+                    class="testimonial-avatar"
+                    src="https://randomuser.me/api/portraits/women/19.jpg"
+                    alt="avatar"
+                  />
+                  <div>
+                    <h5>Meera</h5>
+                    <p>Loyal Customer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <p class="quote">❝</p>
+
+                <p class="testimonial-details">
+                  Beautiful collection and amazing craftsmanship. I received so
+                  many compliments when I wore my order. Highly recommended!
+                </p>
+                <p class="stars stars-testimonials">
+                  <span class="fa fa-star checked"
+                    ><span class="fa fa-star checked"></span
+                    ><span class="fa fa-star checked"></span
+                    ><span class="fa fa-star checked"></span
+                    ><span class="fa fa-star checked"></span
+                  ></span>
+                </p>
+                <hr />
+                <div class="testimonial-profile">
+                  <img
+                    class="testimonial-avatar"
+                    src="https://randomuser.me/api/portraits/men/20.jpg"
+                    alt="avatar"
+                  />
+                  <div>
+                    <h5>John Doe</h5>
+                    <p>Verified Customer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <footer class="footer">
         <div class="container">
           <p>&copy; <span id="year"></span> Monisha. All Rights Reserved.</p>
@@ -366,5 +729,6 @@
       </footer>
     </div>
     <script src="./js/main.js"></script>
+    <script src="./js/pages/products.js"></script>
   </body>
 </html>
